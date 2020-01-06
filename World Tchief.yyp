@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "3bf1e75d-e657-4e0f-865d-bd4144a81219",
+            "Value": {
+                "id": "b1bc8528-bf2d-45ea-89b4-9c4a16fb800e",
+                "resourcePath": "objects\\Camera\\Camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "44f7ec0a-fadb-4f53-9405-dc700ad56372",
             "Value": {
                 "id": "56a30024-64de-4f42-ba54-dd88b0ba3b2a",
@@ -140,6 +148,14 @@
                 "id": "05f899de-f6dd-472c-ac67-376a3ec8feaa",
                 "resourcePath": "views\\63f5be94-c770-4ff4-b26c-decb04841565.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "70c3fe16-b60b-4c81-b287-d3f1f05b0783",
+            "Value": {
+                "id": "975dbf30-1513-4ddc-8c9e-c3e8f52063a9",
+                "resourcePath": "objects\\obj_player\\obj_player.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -228,14 +244,6 @@
                 "id": "919b9a2d-553a-42e2-a02c-9820c65b0e8c",
                 "resourcePath": "sprites\\s_t_terrain\\s_t_terrain.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "ed8d0012-1778-43ae-94ca-824f5fcd07fb",
-            "Value": {
-                "id": "1a5b56d5-6e6f-4458-a464-9b574984608f",
-                "resourcePath": "objects\\obj_player\\obj_player.yy",
-                "resourceType": "GMObject"
             }
         }
     ],

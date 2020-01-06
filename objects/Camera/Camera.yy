@@ -1,18 +1,18 @@
 {
-    "id": "70c3fe16-b60b-4c81-b287-d3f1f05b0783",
+    "id": "3bf1e75d-e657-4e0f-865d-bd4144a81219",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_player",
+    "name": "Camera",
     "eventList": [
         {
-            "id": "c8e7df83-75d1-444e-b26e-2dd97afe06a8",
+            "id": "dc2b8172-a5e1-4872-bcb3-180a2e0ea165",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "70c3fe16-b60b-4c81-b287-d3f1f05b0783"
+            "m_owner": "3bf1e75d-e657-4e0f-865d-bd4144a81219"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "d22f3518-c497-4c67-a804-3ce9ba39628d",
+            "id": "698c82b4-b26a-47f2-bc4c-d50809f20549",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -42,12 +42,26 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
-            "varName": "DefaultSpeed",
+            "value": "obj_player",
+            "varName": "Following",
+            "varType": 5
+        },
+        {
+            "id": "b3574ff0-e6cf-434d-955a-9bf277961e5b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "60",
+            "varName": "Vertical_Margin",
             "varType": 1
         },
         {
-            "id": "b9c1006a-d123-4fdd-a592-4dbfa758613a",
+            "id": "1faff837-7f2d-47ad-98f9-3537a84b8ea5",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -56,26 +70,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
-            "varName": "RunningSpeed",
-            "varType": 1
-        },
-        {
-            "id": "99c4aeef-7b79-467d-a780-86abed6befbd",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "1",
-            "varName": "CroachingSpeed",
+            "value": "30",
+            "varName": "Horizontal_Margin",
             "varType": 1
         }
     ],
     "solid": false,
-    "spriteId": "3428764f-8774-4ccf-b63b-ca604ffe25fa",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
