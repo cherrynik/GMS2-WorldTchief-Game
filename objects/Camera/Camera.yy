@@ -13,6 +13,46 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "3bf1e75d-e657-4e0f-865d-bd4144a81219"
+        },
+        {
+            "id": "d5201ebc-873f-4c91-aa40-9d276ff84c7e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "3bf1e75d-e657-4e0f-865d-bd4144a81219"
+        },
+        {
+            "id": "e1a8a10f-44be-4f16-8a1c-373f0d76dc6a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "3bf1e75d-e657-4e0f-865d-bd4144a81219"
+        },
+        {
+            "id": "fa865c86-ca1b-4861-b664-ef7ed28b3cc0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 7,
+            "m_owner": "3bf1e75d-e657-4e0f-865d-bd4144a81219"
+        },
+        {
+            "id": "8e2b3e64-8865-480b-a416-af627468ca6f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 3,
+            "m_owner": "3bf1e75d-e657-4e0f-865d-bd4144a81219"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -32,6 +72,76 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
+        {
+            "id": "f61ab4c4-ba10-4f45-a3a3-95f3a1e09716",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "ViewScale",
+            "varType": 1
+        },
+        {
+            "id": "3ef2faa2-a704-4a45-b2d6-b83597787646",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1920 \/ 6",
+            "varName": "ViewWidth",
+            "varType": 1
+        },
+        {
+            "id": "a974b50b-0b31-4f13-9d56-00c47bb6e797",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1080 \/ 6",
+            "varName": "ViewHeight",
+            "varType": 1
+        },
+        {
+            "id": "d1c7f607-220e-409f-a333-38c5f853f885",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "ViewWidth * ViewScale",
+            "varName": "OutWidth",
+            "varType": 0
+        },
+        {
+            "id": "3986273e-827e-4c1b-bb83-b1d5bd49fe37",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "ViewHeight * ViewScale",
+            "varName": "OutHeight",
+            "varType": 0
+        },
         {
             "id": "aaf5234f-aa15-4ca0-9520-d11cf726edc1",
             "modelName": "GMObjectProperty",

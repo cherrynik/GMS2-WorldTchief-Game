@@ -7,7 +7,7 @@ var UP    = keyboard_check(vk_up),
 	VERTICAL   = DOWN - UP,
 	
 	RUN    = keyboard_check(vk_shift),
-	CROACH = keyboard_check(vk_alt),
+	CROACH = keyboard_check(vk_control),
 	
 	moveX, moveY, Speed;
 	
