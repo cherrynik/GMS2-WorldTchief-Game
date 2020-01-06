@@ -18,7 +18,7 @@
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": false,
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -33,21 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "698c82b4-b26a-47f2-bc4c-d50809f20549",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "obj_player",
-            "varName": "Following",
-            "varType": 5
-        },
-        {
-            "id": "b3574ff0-e6cf-434d-955a-9bf277961e5b",
+            "id": "aaf5234f-aa15-4ca0-9520-d11cf726edc1",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -57,11 +43,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "60",
-            "varName": "Vertical_Margin",
+            "varName": "HorizontalMargin",
             "varType": 1
         },
         {
-            "id": "1faff837-7f2d-47ad-98f9-3537a84b8ea5",
+            "id": "3c1361b2-d528-423c-82ea-4acdded820c1",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -71,8 +57,22 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "30",
-            "varName": "Horizontal_Margin",
+            "varName": "VerticalMargin",
             "varType": 1
+        },
+        {
+            "id": "4aee2da3-05c6-4b02-b45b-3d6ad0b6efb7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "obj_player",
+            "varName": "Target",
+            "varType": 5
         }
     ],
     "solid": false,

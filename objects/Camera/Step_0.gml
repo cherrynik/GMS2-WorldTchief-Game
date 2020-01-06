@@ -1,2 +1,2 @@
-x = clamp(x, Following.x - Horizontal_Margin, Following.x + Horizontal_Margin);
-y = clamp(y, Following.y - Vertical_Margin, Following.y + Vertical_Margin);
+x = clamp(x, Target.x - HorizontalMargin, Target.x + HorizontalMargin);
+y = clamp(y, Target.y - VerticalMargin, Target.y + VerticalMargin);
