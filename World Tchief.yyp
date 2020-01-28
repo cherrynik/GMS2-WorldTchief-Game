@@ -39,11 +39,35 @@
             }
         },
         {
+            "Key": "08be096e-1eaf-49c5-83f3-f8113316f070",
+            "Value": {
+                "id": "6c1baf75-1857-4f07-bb44-245d5e6de40b",
+                "resourcePath": "sounds\\snd_menuSwitching\\snd_menuSwitching.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "096ade95-a5d8-481f-ba67-0173ebee7d81",
+            "Value": {
+                "id": "39d0ce4f-f247-459f-90ad-aec64c71a4f8",
+                "resourcePath": "views\\096ade95-a5d8-481f-ba67-0173ebee7d81.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "099b646e-8f2e-4ab9-8719-b50859a07f63",
             "Value": {
                 "id": "d4b9d1fc-7e65-4cff-aa9c-68a02ec4cc8f",
                 "resourcePath": "tilesets\\t_out\\t_out.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "0e9437b7-692c-4754-8780-9241753d6651",
+            "Value": {
+                "id": "2ae0e562-129c-4404-833d-dd2bda2f2c71",
+                "resourcePath": "views\\0e9437b7-692c-4754-8780-9241753d6651.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -63,6 +87,14 @@
             }
         },
         {
+            "Key": "1de472ee-d433-4997-a2d9-1d18fd5ddcea",
+            "Value": {
+                "id": "789b9b64-1191-499c-be14-f90bda301ca7",
+                "resourcePath": "objects\\obj_menu\\obj_menu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1e3822bd-ced1-47bf-9fa9-34ed756b6505",
             "Value": {
                 "id": "92e50dfe-f968-43e6-ba62-6cb1262fa59c",
@@ -75,6 +107,14 @@
             "Value": {
                 "id": "846c9817-82eb-4d72-8951-18531daa731f",
                 "resourcePath": "views\\1fb96f5c-221d-41f7-b435-e804e622339d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "26a2d85f-4433-4897-981c-c125f04661c7",
+            "Value": {
+                "id": "371e67ed-f2d8-4576-b1d8-7bd009806ce2",
+                "resourcePath": "views\\26a2d85f-4433-4897-981c-c125f04661c7.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -143,11 +183,27 @@
             }
         },
         {
+            "Key": "5ae7a2fc-8731-4c15-b84d-5c41b96e6bd4",
+            "Value": {
+                "id": "39058239-6292-4fe6-8d82-9283bd4845c4",
+                "resourcePath": "rooms\\rm_menu\\rm_menu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "63f5be94-c770-4ff4-b26c-decb04841565",
             "Value": {
                 "id": "05f899de-f6dd-472c-ac67-376a3ec8feaa",
                 "resourcePath": "views\\63f5be94-c770-4ff4-b26c-decb04841565.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6436237b-49e0-4c1b-84d0-9ba0e4194af2",
+            "Value": {
+                "id": "be97caea-3925-401a-b740-85bb0f44c5bb",
+                "resourcePath": "datafiles_yy\\Fonts\\ft_Pixel.ttf.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -172,6 +228,14 @@
                 "id": "226a0209-2177-41fc-9cf6-71c348da7465",
                 "resourcePath": "tilesets\\t_terrain\\t_terrain.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "7258ce38-2de0-4c38-9633-af1aac226c89",
+            "Value": {
+                "id": "e1295b61-2b9b-4d0b-99d3-c5b6916b5850",
+                "resourcePath": "views\\7258ce38-2de0-4c38-9633-af1aac226c89.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -212,6 +276,30 @@
                 "id": "70be11dd-20ad-4d29-a13f-4077ef9bdd28",
                 "resourcePath": "views\\ae0ca354-3d1d-454c-acac-d4461179e276.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b7028fcd-af38-46de-88c6-458b790d9b98",
+            "Value": {
+                "id": "2ca2c2b3-9091-4148-a065-335c49f734c3",
+                "resourcePath": "fonts\\ft_main\\ft_main.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "b83629a3-afc0-4c9e-897e-fbd3f23ec561",
+            "Value": {
+                "id": "b2cf8c4a-52d6-482a-8f6d-97cb100aa164",
+                "resourcePath": "views\\b83629a3-afc0-4c9e-897e-fbd3f23ec561.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bc1d461a-f1fe-40fa-bc01-94afbc245765",
+            "Value": {
+                "id": "98ea2729-f562-455e-9bd9-b923beecaf3b",
+                "resourcePath": "datafiles_yy\\Fonts\\ft_Pixel_MAC.ttf.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
