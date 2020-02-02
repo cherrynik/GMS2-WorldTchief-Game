@@ -4,20 +4,18 @@ ButtonW = 64;
 ButtonH = 18;
 
 // Rewriting them
-ButtonW = ButtonW * ScaleBy;
-ButtonH = ButtonH * ScaleBy;
+ResW = ButtonW * ScaleBy;
+ResH = ButtonH * ScaleBy;
 
 // Buttons text
-Text = "Game";
+Text = "";
 
 // Vars
 isHovering = false;
 isActive = false;
 StepBy = .4;
-X = x;
-Y = y;
-
-//Buttons = array_length_1d(Button);
+Color1 = $FFE3BA00;
+Color2 = $FFFFF000;
 
 // Script
 Script = -1;

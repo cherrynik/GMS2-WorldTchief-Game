@@ -1,5 +1,5 @@
-#macro RES_W 960
-#macro RES_H 540
+#macro RES_W 1280
+#macro RES_H 720
 #macro RES_SCALE 1
 
 #macro CAM_SMOOTH .1
