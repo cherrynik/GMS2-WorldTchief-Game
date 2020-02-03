@@ -11,5 +11,6 @@ draw_outline(x + ResW / 2, y + ResH / 2, Text, 2, c_black);
 draw_set_color(merge_color(Color1, Color2, isHovering));
 draw_text(x + ResW / 2, y + ResH / 2, Text);
 
+draw_set_color(c_white);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);

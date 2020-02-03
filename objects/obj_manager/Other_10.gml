@@ -1,5 +1,5 @@
-WindowW = display_get_gui_width() / 2.65	;
-WindowH = display_get_gui_height() / 3.5;
+WindowW = display_get_gui_width() / 2;
+WindowH = display_get_gui_height() / 3;
 
 ButtonH = 18;
 ButtonW = 64;
@@ -36,7 +36,7 @@ Buttons = array_height_2d(Button);
 var i = 0;
 repeat(Buttons) {
 	create_button(
-		WindowW + ButtonW * ScaleBy / 2, WindowH + ButtonH * ScaleBy * i,
+		WindowW, WindowH + ButtonH * ScaleBy * i,
 		Button[i, 0],
 		ButtonH, ButtonW, ScaleBy, Font,
 		Button[i, 1], Button[i, 2], Button[i, 3]
