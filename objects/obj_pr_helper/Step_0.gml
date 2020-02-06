@@ -9,4 +9,3 @@ WindowH = string(window_get_height());
 	
 GuiW	= string(display_get_gui_width());
 GuiH	= string(display_get_gui_height());
-

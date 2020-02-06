@@ -1,11 +1,4 @@
-WindowW = display_get_gui_width() / 2;
-WindowH = display_get_gui_height() / 3;
-
-ButtonH = 18;
-ButtonW = 64;
-ScaleBy = 3;
-Font = ft_main;
-
+// Init buttons
 Button[0, 0] = "New Game";
 Button[0, 1] = $0052A400;
 Button[0, 2] = $0080FF00;
@@ -32,14 +25,3 @@ Button[4, 2] = $00FFFFFF;
 Button[4, 3] = Test;
 
 Buttons = array_height_2d(Button);
-
-var i = 0;
-repeat(Buttons) {
-	create_button(
-		WindowW, WindowH + ButtonH * ScaleBy * i,
-		Button[i, 0],
-		ButtonH, ButtonW, ScaleBy, Font,
-		Button[i, 1], Button[i, 2], Button[i, 3]
-	);
-	i++;
-}

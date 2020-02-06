@@ -1,21 +1,15 @@
 // Properties
-ScaleBy = 3;
-ButtonW = 64;
-ButtonH = 18;
+global.ScaleBy = 3;
+ButtonW = 80;
+ButtonH = 20;
 
-// Rewriting them
-ResW = ButtonW * ScaleBy;
-ResH = ButtonH * ScaleBy;
+ResW = ButtonW * global.ScaleBy;
+ResH = ButtonH * global.ScaleBy;
 
-// Buttons text
 Text = "";
-
-// Vars
-isHovering = false;
-isActive = false;
-StepBy = .4;
 Color1 = $FFE3BA00;
 Color2 = $FFFFF000;
+StepBy = .2;
+isHovering = false;
 
-// Script
 Script = -1;

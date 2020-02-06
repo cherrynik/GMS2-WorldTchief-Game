@@ -8,7 +8,7 @@
         "92002e95-0dbc-45d8-8332-759ab1e3ab4a"
     ],
     "filterType": "GMSound",
-    "folderName": "Button",
+    "folderName": "Effects",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

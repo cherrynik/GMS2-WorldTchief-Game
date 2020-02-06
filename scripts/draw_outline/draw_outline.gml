@@ -12,16 +12,16 @@ var outlineWidth = argument3;
 var outlineColor = argument4;
 
 draw_set_color(outlineColor);
-draw_text(xx - outlineWidth, yy, text);
-draw_text(xx + outlineWidth, yy, text);
+draw_text_transformed(xx - outlineWidth, yy, text, global.ScaleBy, global.ScaleBy, 0);
+draw_text_transformed(xx + outlineWidth, yy, text, global.ScaleBy, global.ScaleBy, 0);
 
-draw_text(xx, yy - outlineWidth, text);
-draw_text(xx, yy + outlineWidth, text);
+draw_text_transformed(xx, yy - outlineWidth, text, global.ScaleBy, global.ScaleBy, 0);
+draw_text_transformed(xx, yy + outlineWidth, text, global.ScaleBy, global.ScaleBy, 0);
 
-draw_text(xx - outlineWidth, yy - outlineWidth, text);
-draw_text(xx - outlineWidth, yy + outlineWidth, text);
+draw_text_transformed(xx - outlineWidth, yy - outlineWidth, text, global.ScaleBy, global.ScaleBy, 0);
+draw_text_transformed(xx - outlineWidth, yy + outlineWidth, text, global.ScaleBy, global.ScaleBy, 0);
 
-draw_text(xx + outlineWidth, yy - outlineWidth, text);
-draw_text(xx + outlineWidth, yy + outlineWidth, text);
+draw_text_transformed(xx + outlineWidth, yy - outlineWidth, text, global.ScaleBy, global.ScaleBy, 0);
+draw_text_transformed(xx + outlineWidth, yy + outlineWidth, text, global.ScaleBy, global.ScaleBy, 0);
 
-draw_text(xx, yy, text);
+draw_text_transformed(xx, yy, text, global.ScaleBy, global.ScaleBy, 0);

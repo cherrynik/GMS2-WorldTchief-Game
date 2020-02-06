@@ -21,6 +21,46 @@
                     "groupName": "audiogroup",
                     "targets": 461609314234257646
                 }
+            },
+            {
+                "Key": 2,
+                "Value": {
+                    "id": "66299964-6c2e-449f-9595-29dc80f872cb",
+                    "modelName": "GMAudioGroup",
+                    "mvc": "1.0",
+                    "groupName": "au_env",
+                    "targets": 461609314234257646
+                }
+            },
+            {
+                "Key": 3,
+                "Value": {
+                    "id": "8434d4c8-6017-4f93-9643-4a388edadc97",
+                    "modelName": "GMAudioGroup",
+                    "mvc": "1.0",
+                    "groupName": "au_enemies",
+                    "targets": 461609314234257646
+                }
+            },
+            {
+                "Key": 4,
+                "Value": {
+                    "id": "dc7c447b-03f5-4f2e-a92c-0616285926fb",
+                    "modelName": "GMAudioGroup",
+                    "mvc": "1.0",
+                    "groupName": "au_effects",
+                    "targets": 461609314234257646
+                }
+            },
+            {
+                "Key": 5,
+                "Value": {
+                    "id": "f3365a07-c796-49df-aab8-5c466c6b3c39",
+                    "modelName": "GMAudioGroup",
+                    "mvc": "1.0",
+                    "groupName": "au_music",
+                    "targets": 461609314234257646
+                }
             }
         ],
         "Checksum": "濑Ⱥ朦씁ᬄ縈",
