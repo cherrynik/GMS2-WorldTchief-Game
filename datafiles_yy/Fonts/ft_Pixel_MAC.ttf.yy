@@ -3,7 +3,7 @@
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "ft_Pixel_MAC.ttf",
-    "CopyToMask": 2,
+    "CopyToMask": 9007199254741030,
     "exists": false,
     "exportAction": 0,
     "exportDir": "",

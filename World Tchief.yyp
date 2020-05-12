@@ -167,14 +167,6 @@
             }
         },
         {
-            "Key": "3795e1ce-72f2-4b96-b2b1-258be0fd8652",
-            "Value": {
-                "id": "6d2c4686-85cf-4b07-851d-54aa557c9869",
-                "resourcePath": "notes\\compatibility_report_300120_1155305530.yy",
-                "resourceType": "GMNotes"
-            }
-        },
-        {
             "Key": "38941bda-43c6-4b98-9ac4-aed34a268925",
             "Value": {
                 "id": "623ef6e3-1bf0-45e7-b27f-645d66f3051f",
@@ -303,6 +295,14 @@
             }
         },
         {
+            "Key": "62ca2ed2-7fb7-4632-af0d-263adf3c07eb",
+            "Value": {
+                "id": "a388cd85-5842-403e-8fff-095628513fb5",
+                "resourcePath": "views\\62ca2ed2-7fb7-4632-af0d-263adf3c07eb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "63097bb0-bda7-4454-82a4-7bddd20cf2ee",
             "Value": {
                 "id": "4a6910d4-ff2e-4716-8049-1e85242e0950",
@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "7ff90b52-fa10-48ad-9c5a-a0f440ef6d16",
+            "Value": {
+                "id": "972be23b-bb62-4a12-8934-ce96d17863eb",
+                "resourcePath": "sprites\\s_terrain\\s_terrain.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "817c480a-e0c5-47b9-bdd9-327897ba3298",
             "Value": {
                 "id": "dfb34785-ddac-4b21-b81a-da4f29c458de",
@@ -412,6 +420,14 @@
                 "id": "58f0439d-0e0f-448c-8e1c-416f016c9a3c",
                 "resourcePath": "sounds\\snd_backtheme\\snd_backtheme.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "8479727e-bb09-412e-acb0-4a4cb218c093",
+            "Value": {
+                "id": "0895b631-021d-4d34-81f1-bd2e4e4d6900",
+                "resourcePath": "tilesets\\t_grass\\t_grass.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -503,14 +519,6 @@
             }
         },
         {
-            "Key": "bc729a8e-a1e7-4518-adc2-ccb9ad6d144a",
-            "Value": {
-                "id": "93e72bf2-ae04-46d9-8f3f-98a3cb73eadb",
-                "resourcePath": "sprites\\s_t_out\\s_t_out.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "c74eae19-2427-48a3-96d4-e0d28c7b3a18",
             "Value": {
                 "id": "c488bfe8-6036-434d-ba9f-50a8ebcdd4ff",
@@ -524,6 +532,14 @@
                 "id": "ca037497-1dd7-4b44-80c0-482baa0d61ec",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd24a0f8-a45d-449a-8ff2-6dcf26262b6d",
+            "Value": {
+                "id": "2854c5b9-15ff-45c8-8ecc-7f9b1a59a61c",
+                "resourcePath": "scripts\\InitCamera\\InitCamera.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -559,14 +575,6 @@
             }
         },
         {
-            "Key": "de70320b-edd9-4f63-951e-102484999a0b",
-            "Value": {
-                "id": "919b9a2d-553a-42e2-a02c-9820c65b0e8c",
-                "resourcePath": "sprites\\s_t_terrain\\s_t_terrain.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "ea544418-2388-43e6-a449-1942a14ebfc4",
             "Value": {
                 "id": "2233a8b0-9030-4632-b152-7592ec80abcb",
@@ -597,6 +605,7 @@
         "38941bda-43c6-4b98-9ac4-aed34a268925",
         "f4a79345-1f27-44bb-b469-f0a0394d42c1",
         "59e82e50-9fb2-4fa8-97f2-17b784a48b43",
+        "cd24a0f8-a45d-449a-8ff2-6dcf26262b6d",
         "606536ce-43a7-44b8-b432-24927a929633",
         "0fff7823-033f-404e-abc2-b595f40bcb03"
     ],
