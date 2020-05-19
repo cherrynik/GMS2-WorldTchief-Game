@@ -20,30 +20,52 @@ if (HORIZONTAL != 0 or VERTICAL != 0) {
 	moveX = lengthdir_x(Speed, dir);
 	moveY = lengthdir_y(Speed, dir);
 	
-	// X-Moving
-	if (moveX != 0) {
-		if (place_meeting(x + moveX, y, obj_collision)) {
-			repeat(abs(moveX)) {
-				if (!place_meeting(x + sign(moveX), y, obj_collision)) {
-					x += sign(moveX);
-				}
+	if (moveX != 0 or moveY != 0) {
+		for (i = 0; i < 90; i += .1) {
+			moveX = lengthdir_x(Speed, dir + i)
+			moveY = lengthdir_y(Speed, dir + i)
+			
+			if (place_free(x + moveX, y + moveY)) {
+				x += moveX
+				y += moveY
+				break
 			}
-			moveX = 0;
+			
+			moveX = lengthdir_x(Speed, dir - i)
+			moveY = lengthdir_y(Speed, dir - i)
+			
+			if (place_free(x + moveX, y + moveY)) {
+				x += moveX
+				y += moveY
+				break
+			}
 		}
 	}
 	
-	// Y-Moving
-	if (moveY != 0) {
-		if (place_meeting(x, y + moveY, obj_collision)) {
-			repeat(abs(moveY)) {
-				if (!place_meeting(x, y + sign(moveY), obj_collision)) {
-					y += sign(moveY);
-				}
-			}
-			moveY = 0;
-		}
-	}
+	//// X-Moving
+	//if (moveX != 0) {
+	//	if (place_meeting(x + moveX, y, obj_collision)) {
+	//		repeat(abs(moveX)) {
+	//			if (!place_meeting(x + sign(moveX), y, obj_collision)) {
+	//				x += sign(moveX);
+	//			}
+	//		}
+	//		moveX = 0;
+	//	}
+	//}
 	
-	x += moveX;
-	y += moveY;
+	//// Y-Moving
+	//if (moveY != 0) {
+	//	if (place_meeting(x, y + moveY, obj_collision)) {
+	//		repeat(abs(moveY)) {
+	//			if (!place_meeting(x, y + sign(moveY), obj_collision)) {
+	//				y += sign(moveY);
+	//			}
+	//		}
+	//		moveY = 0;
+	//	}
+	//}
+	
+	//x += moveX;
+	//y += moveY;
 }
