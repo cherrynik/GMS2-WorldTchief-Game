@@ -3,7 +3,7 @@
     "modelName": "GMIncludedFile",
     "mvc": "1.0",
     "name": "ft_Pixel.ttf",
-    "CopyToMask": 96,
+    "CopyToMask": 64,
     "exists": false,
     "exportAction": 0,
     "exportDir": "",

@@ -1,7 +1,7 @@
-var UP    = keyboard_check(vk_up),
-	DOWN  = keyboard_check(vk_down),
-	LEFT  = keyboard_check(vk_left),
-	RIGHT = keyboard_check(vk_right),
+var UP    = keyboard_check(vk_up) or keyboard_check(ord("W")),
+	DOWN  = keyboard_check(vk_down) or keyboard_check(ord("S")),
+	LEFT  = keyboard_check(vk_left) or keyboard_check(ord("A")),
+	RIGHT = keyboard_check(vk_right) or keyboard_check(ord("D")),
 	
 	HORIZONTAL = RIGHT - LEFT,
 	VERTICAL   = DOWN - UP,
@@ -20,6 +20,7 @@ if (HORIZONTAL != 0 or VERTICAL != 0) {
 	moveX = lengthdir_x(Speed, dir);
 	moveY = lengthdir_y(Speed, dir);
 	
+	// X-Moving
 	if (moveX != 0) {
 		if (place_meeting(x + moveX, y, obj_collision)) {
 			repeat(abs(moveX)) {
@@ -31,6 +32,7 @@ if (HORIZONTAL != 0 or VERTICAL != 0) {
 		}
 	}
 	
+	// Y-Moving
 	if (moveY != 0) {
 		if (place_meeting(x, y + moveY, obj_collision)) {
 			repeat(abs(moveY)) {

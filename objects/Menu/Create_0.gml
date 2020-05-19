@@ -1,6 +1,6 @@
 // Resize resolution
-surface_resize(application_surface, 1280, 720); // Updated main layer
-display_set_gui_size(1280, 720); // GUI changed self safe size
+surface_resize(application_surface, RES.W, RES.H); // Updated main layer
+display_set_gui_size(RES.W, RES.H); // GUI changed self safe size
 
 // Buttons
 event_user(0); // Created

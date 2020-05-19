@@ -15,7 +15,7 @@
             "m_owner": "70c3fe16-b60b-4c81-b287-d3f1f05b0783"
         }
     ],
-    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "maskSpriteId": "3428764f-8774-4ccf-b63b-ca604ffe25fa",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
@@ -44,7 +44,7 @@
             "resourceFilter": 1023,
             "value": "2",
             "varName": "DefaultSpeed",
-            "varType": 1
+            "varType": 0
         },
         {
             "id": "b9c1006a-d123-4fdd-a592-4dbfa758613a",
@@ -56,9 +56,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
+            "value": "2.5",
             "varName": "RunningSpeed",
-            "varType": 1
+            "varType": 0
         },
         {
             "id": "99c4aeef-7b79-467d-a780-86abed6befbd",
@@ -70,9 +70,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "1.2",
             "varName": "CroachingSpeed",
-            "varType": 1
+            "varType": 0
         }
     ],
     "solid": false,

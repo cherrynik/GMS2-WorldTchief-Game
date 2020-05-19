@@ -1,12 +1,14 @@
 1.0.0←ed6a955d-5826-4f98-a450-10b414266c27←ed6a955d-5826-4f98-a450-10b414266c27|{
     "option_window_colour": {
-        "Value": 4278190080
+        "Value": 4294965989
     },
-    "option_gameguid": "5c179935-07e0-4209-907d-b103966a35b4",
+    "option_gameguid": "39a89258-c222-4b5a-8ab5-d1f4a727e1dd",
     "option_game_speed": 60,
-    "option_lastchanged": "04 January 2020 1:27:38",
+    "option_lastchanged": "13 May 2020 15:25:17",
     "option_author": "Grinders DEV",
-    "option_sci_usesci": true
+    "option_sci_usesci": true,
+    "option_spine_licence": true,
+    "option_mips_for_3d_textures": true
 }←1225f6b0-ac20-43bd-a82e-be73fa0b6f4f|{
     "targets": 461609314234257646
 }←7fa50043-cea6-4cd0-9521-a8ba8c6ea9f0|{

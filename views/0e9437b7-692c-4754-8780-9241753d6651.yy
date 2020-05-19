@@ -4,9 +4,8 @@
     "mvc": "1.1",
     "name": "0e9437b7-692c-4754-8780-9241753d6651",
     "children": [
-        "3bf1e75d-e657-4e0f-865d-bd4144a81219",
-        "9307797e-2037-4d94-bf58-68688d041724",
-        "70c3fe16-b60b-4c81-b287-d3f1f05b0783"
+        "5c8fa0d6-5c12-4afa-a2bf-4f031f344ad9",
+        "321ae644-fb4a-4255-8130-7e126c5d6e68"
     ],
     "filterType": "GMObject",
     "folderName": "Game",

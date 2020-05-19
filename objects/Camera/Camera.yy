@@ -5,16 +5,6 @@
     "name": "Camera",
     "eventList": [
         {
-            "id": "dc2b8172-a5e1-4872-bcb3-180a2e0ea165",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "3bf1e75d-e657-4e0f-865d-bd4144a81219"
-        },
-        {
             "id": "d5201ebc-873f-4c91-aa40-9d276ff84c7e",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -25,27 +15,17 @@
             "m_owner": "3bf1e75d-e657-4e0f-865d-bd4144a81219"
         },
         {
-            "id": "e1a8a10f-44be-4f16-8a1c-373f0d76dc6a",
+            "id": "da82e77d-a5c0-49b3-9b6f-be76d8bf62a8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 2,
+            "eventtype": 12,
             "m_owner": "3bf1e75d-e657-4e0f-865d-bd4144a81219"
         },
         {
-            "id": "fa865c86-ca1b-4861-b664-ef7ed28b3cc0",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 7,
-            "m_owner": "3bf1e75d-e657-4e0f-865d-bd4144a81219"
-        },
-        {
-            "id": "8e2b3e64-8865-480b-a416-af627468ca6f",
+            "id": "044cc9a7-f743-4677-9bf9-28bc99fbe9bc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -53,11 +33,21 @@
             "enumb": 2,
             "eventtype": 3,
             "m_owner": "3bf1e75d-e657-4e0f-865d-bd4144a81219"
+        },
+        {
+            "id": "2d9ae920-fb56-48f9-b747-8836d33b977e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "3bf1e75d-e657-4e0f-865d-bd4144a81219"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "70c3fe16-b60b-4c81-b287-d3f1f05b0783",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
