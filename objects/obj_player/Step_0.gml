@@ -21,9 +21,9 @@ if (HORIZONTAL != 0 or VERTICAL != 0) {
 	moveY = lengthdir_y(Speed, dir);
 	
 	if (moveX != 0 or moveY != 0) {
-		for (i = 0; i < 90; i += .1) {
-			moveX = lengthdir_x(Speed, dir + i)
-			moveY = lengthdir_y(Speed, dir + i)
+		for (i = 0; i < 90; i += 1) {
+			moveX = lengthdir_x(Speed, dir + round(i))
+			moveY = lengthdir_y(Speed, dir + round(i))
 			
 			if (place_free(x + moveX, y + moveY)) {
 				x += moveX
@@ -31,8 +31,8 @@ if (HORIZONTAL != 0 or VERTICAL != 0) {
 				break
 			}
 			
-			moveX = lengthdir_x(Speed, dir - i)
-			moveY = lengthdir_y(Speed, dir - i)
+			moveX = lengthdir_x(Speed, dir - round(i))
+			moveY = lengthdir_y(Speed, dir - round(i))
 			
 			if (place_free(x + moveX, y + moveY)) {
 				x += moveX
@@ -41,6 +41,8 @@ if (HORIZONTAL != 0 or VERTICAL != 0) {
 			}
 		}
 	}
+	moveX = 0
+	moveY = 0
 	
 	//// X-Moving
 	//if (moveX != 0) {
