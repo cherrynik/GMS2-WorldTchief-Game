@@ -6,7 +6,7 @@ camW = camera_get_view_width(camera)
 camH = camera_get_view_height(camera)
 
 // Set the target camera position
-var playerSize = 64;
+var playerSize = 32;
 var targetX = obj_player.x - camW / 2
 var targetY = obj_player.y - camH / 2 - playerSize / 2
 

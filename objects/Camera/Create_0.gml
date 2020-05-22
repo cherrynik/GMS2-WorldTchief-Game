@@ -4,7 +4,7 @@
 enum RES {
 	W = 640,
 	H = 480,
-	SCALE = 1
+	SCALE = 2
 }
 
 // Create camera

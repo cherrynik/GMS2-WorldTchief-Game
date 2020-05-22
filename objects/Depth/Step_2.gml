@@ -1,3 +1,3 @@
 with (all) {
-	depth = -bbox_bottom
+	depth = -bbox_top
 }

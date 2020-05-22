@@ -8,7 +8,7 @@
         "9307797e-2037-4d94-bf58-68688d041724"
     ],
     "filterType": "GMObject",
-    "folderName": "World",
+    "folderName": "General",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

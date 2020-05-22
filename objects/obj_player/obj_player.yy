@@ -13,6 +13,26 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "70c3fe16-b60b-4c81-b287-d3f1f05b0783"
+        },
+        {
+            "id": "95e9ad7d-e013-400f-bf84-a80c2e629e07",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "70c3fe16-b60b-4c81-b287-d3f1f05b0783"
+        },
+        {
+            "id": "969bcf3b-15d4-4561-87ad-e4321b85edd2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 3,
+            "m_owner": "70c3fe16-b60b-4c81-b287-d3f1f05b0783"
         }
     ],
     "maskSpriteId": "3428764f-8774-4ccf-b63b-ca604ffe25fa",
@@ -42,7 +62,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
+            "value": "1",
             "varName": "DefaultSpeed",
             "varType": 0
         },
@@ -56,7 +76,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2.5",
+            "value": "1.7",
             "varName": "RunningSpeed",
             "varType": 0
         },
@@ -70,7 +90,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1.2",
+            "value": ".5",
             "varName": "CroachingSpeed",
             "varType": 0
         }
